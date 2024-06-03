@@ -2,10 +2,10 @@
 header('Content-Type: application/json');
 
 // Database configuration
-$servername = "mysql.10web.site";
+$servername = "mysql.10web.site12";
 $username = "live_user_4N0k";
-$password = "bZ8VovPWxzYjPIM8DPqEASs8WwH8xFgOYN";
-$dbname = "live_4N0k";
+$password = "bZ8V12$$88ovPWxzYjPIM8DPqEASs8WwH8xFgOYN";
+$dbname = "live_4N0k12";
 $table_prefix = 'wp_';
 
 // Create connection
