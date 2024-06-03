@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>212Gigs Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>212Gigs Marketplace</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="navigate('home')">Home</a></li>
+                <li><a href="#" onclick="navigate('browse')">Browse</a></li>
+                <li><a href="#" onclick="navigate('post')">Post</a></li>
+                <li><a href="#" onclick="navigate('register')">Register</a></li>
+                <li><a href="#" id="login-btn">Login</a></li>
+                <li><a href="#" onclick="navigate('search')">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <h2>Find or List Your Gig Today!</h2>
+            <p>Browse through a variety of gigs or post your own gig to get started.</p>
+            <button onclick="navigate('browse')">Browse</button>
+            <button onclick="navigate('post')">Post</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>About Us | FAQ | Terms of Service | Privacy Policy</p>
+        <p>Contact: contact@example.com</p>
+        <p>Follow us on:
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post a Gig - 212Gigs Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Post a Gig</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browse-gigs.html">Browse</a></li>
+                <li><a href="post-gig.html">Post</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="#" id="login-btn">Login</a></li>
+                <li><a href="search.html">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="post-gig">
+            <h2>Post a Gig</h2>
+            <form id="post-gig-form">
+                <label for="gig-title">Gig Title:</label>
+                <input type="text" id="gig-title" name="gig-title" required>
+
+                <label for="gig-description">Description:</label>
+                <textarea id="gig-description" name="gig-description" required></textarea>
+
+                <label for="gig-category">Category:</label>
+                <select id="gig-category" name="gig-category" required>
+                    <option value="category1">Category 1</option>
+                    <!-- Add more categories as needed -->
+                </select>
+
+                <label for="gig-price">Price:</label>
+                <input type="number" id="gig-price" name="gig-price" required>
+
+                <label for="gig-location">Location:</label>
+                <input type="text" id="gig-location" name="gig-location" required>
+
+                <label for="gig-image">Upload Images:</label>
+                <input type="file" id="gig-image" name="gig-image">
+
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions.
+                </label>
+
+                <button type="submit">Submit Gig</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>About Us | FAQ | Terms of Service | Privacy Policy</p>
+        <p>Contact: contact@example.com</p>
+        <p>Follow us on:
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
